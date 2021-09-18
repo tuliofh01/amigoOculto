@@ -1,0 +1,12 @@
+- Descrição:
+Este programa trata-se de um simples sorteador para brincadeiras de amigo oculto. O menu interativo foi feito em shell
+script e o algoritmo sorteador em python3.
+
+- Guia de instalaçao (execute installer.sh):
+Execute o instalador (como sudo) para configurar corretamente o programa. Certifique-se de ter o python3 e o pip instalados
+para que tudo funcione corretamente. Após a instalação, por favor, descarte o arquivo instalador.
+
+- Funcionamento (execute amigoOculto.sh):
+O programa cria diretórios relativos à cada festa dentro da pasta data. Cada diretório contém arquivos CSV representando os
+participantes do sorteio e os presentes solicitados por eles. Ao final de cada sorteio os textos com os resultados ficam
+salvos dentro da pasta results em um subdiretório cujo nome equivale à data do sorteio.
