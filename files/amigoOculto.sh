@@ -5,6 +5,7 @@
 printf "Bem vindo, $USER, ao sorteador de amigo oculto!\n"
 cat ./bin/art.txt
 
+
 # Listar/cadastrar festas
 function cadastrarFesta {
 	echo -n "Insira o nome da festa:"
@@ -104,5 +105,4 @@ done
 
 # Sinaliza o fim do sorteio
 echo "Fim do sorteio! Conferir os resultados na pasta results!"
-
 
