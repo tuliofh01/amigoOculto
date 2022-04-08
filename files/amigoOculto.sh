@@ -1,5 +1,6 @@
 #!/bin/bash
 
+IFS='\n'
 
 # Boas vindas ao usuario
 printf "Bem vindo, $USER, ao sorteador de amigo oculto!\n"
